@@ -6,6 +6,20 @@ This repository contains two complete implementations for solving the Traveling 
 
 Both are implemented in Python and adapted to handle the permutation-based nature of TSP, where each candidate solution represents a tour visiting every city exactly once.
 
+### Repository Structure:
+📦 TSP-Evolutionary-Algorithms
+
+ ┣ 📁 lab02/                --->  .npy problem instances (distance matrices)
+ 
+ ┣ 📁 CSV Results/          --->  CSV outputs (GA and ES results)
+ 
+ ┣ 📄 genetic_algorithm.py  --->  Complete GA implementation
+ 
+ ┣ 📄 evolution_strategy.py ---> Complete ES implementation (μ+λ / μ,λ)
+ 
+ ┗ 📜 README.md             
+
+
 ## Algorithms Implemented
 
 ### 1. Genetic Algorithm (GA)
